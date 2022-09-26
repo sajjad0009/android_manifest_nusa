@@ -83,7 +83,7 @@
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="nad" />
   <project path="frameworks/av" name="android_frameworks_av" remote="nad" />
   <project path="frameworks/native" name="android_frameworks_native" remote="nad" />
-  <project path="frameworks/base" name="android_frameworks_base" remote="nad" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="sa" />
 
   <!-- Device -->
   <project path="device/nad/sepolicy" name="android_device_nad_sepolicy" remote="nad" />
@@ -209,7 +209,7 @@
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="nad" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="nad" />
   <project path="vendor/pixelgapps" name="Genkzsz11/vendor_pixelgapps" remote="gitlab" revision="10" clone-depth="1" />
-  <project path="vendor/themes" name="android_vendor_themes" remote="nad" />
+  <project path="vendor/themes" name="android_vendor_themes" remote="sa" />
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
 </manifest>
