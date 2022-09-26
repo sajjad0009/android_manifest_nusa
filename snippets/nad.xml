@@ -13,6 +13,10 @@
         fetch="https://github.com/NusantaraProject-ROM/"
         revision="refs/heads/10" />
 
+<remote name="sa"
+        fetch="https://github.com/Sa-Sajjad/"
+        revision="refs/heads/10" />
+
 <remote name="wip"
         fetch="https://github.com/Nusantara-ROM/"
         revision="refs/heads/10" />
