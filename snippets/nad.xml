@@ -17,6 +17,10 @@
         fetch="https://github.com/Sa-Sajjad/"
         revision="refs/heads/10" />
 
+<remote name="sa2"
+        fetch="https://github.com/Sa-Sajjad/"
+        revision="refs/heads/hmp" />
+
 <remote name="wip"
         fetch="https://github.com/Nusantara-ROM/"
         revision="refs/heads/10" />
@@ -212,4 +216,10 @@
   <project path="vendor/themes" name="android_vendor_themes" remote="sa" />
   <project path="vendor/nusantara" name="android_vendor_nusantara" remote="nad" />
   <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="nad" />
+
+  <!-- Lavender -->
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa" />
+  <project path="vendor/oplauncher" name="vendor_OnePlusLauncher" remote="sa" />
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa2" />
+  <project path="kernel/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa2" />
 </manifest>
