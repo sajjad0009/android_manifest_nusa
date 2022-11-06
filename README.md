@@ -19,6 +19,6 @@ Lunch Command
 -------------
 ```bash
   . build/envsetup.sh
-  lunch nad_<device_codename>-buildtype
+  lunch nad_lavender-userdebug
   mka nad -j
 ```
