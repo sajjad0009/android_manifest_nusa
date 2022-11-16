@@ -17,10 +17,6 @@
         fetch="https://github.com/Sa-Sajjad/"
         revision="refs/heads/10" />
 
-<remote name="sa2"
-        fetch="https://github.com/Sa-Sajjad/"
-        revision="refs/heads/hmp" />
-
 <remote name="sa3"
         fetch="https://github.com/Sa-Sajjad/"
         revision="refs/heads/sa_hmp" />
@@ -222,5 +218,4 @@
   <!-- Lavender -->
   <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="sa" />
   <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa3" />
-  <project path="kernel/xiaomi/lavender" name="device_xiaomi_lavender" remote="sa2" />
 </manifest>
