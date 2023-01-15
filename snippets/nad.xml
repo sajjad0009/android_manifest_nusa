@@ -25,6 +25,10 @@
           fetch="https://github.com/Ancient-Lab"
           revision="ten" />
 
+<remote name="sa"
+        fetch="https://github.com/Sa-Sajjad/"
+        revision="refs/heads/10" />
+
   <!-- Build -->
   <project path="build/make" name="android_build" remote="nad" >
     <copyfile src="core/root.mk" dest="Makefile" />
